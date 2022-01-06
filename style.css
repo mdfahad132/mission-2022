@@ -8,27 +8,30 @@ body{
     margin-left: 5%;
     margin-right: 5%;
 }
-.header{
+.banner{
     width: 50%;
     padding: 5%;
     padding-bottom: 1%;
 }
-.header h1{
+.banner h1{
     font-size: 35px;
     line-height: 22px;
 }
 .color{
     color: skyblue;
 }
-.header p{
+.banner p{
     line-height: 20px;
     color: rgb(131, 126, 126);
     font-size: 13px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.header img{
+.banner img{
     width: 100%;
+}
+.banner-title{
+    margin-left: 15px;
 }
 .link-button{
     text-decoration: none;
@@ -36,6 +39,21 @@ body{
     padding: 10px 20px;
     border-radius: 3px;
     color: white;
+}
+
+.banner-section{
+    position: relative;
+}
+.banner-section::after{
+    Content: "";
+    position: absolute;
+    height: 82px;
+    width: 3px;
+    top: 83px;
+    background-color: rgb(238, 111, 8);
+    left: 59px;
+    border-radius: 30px;
+ 
 }
 
 .illustrator{
