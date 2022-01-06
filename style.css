@@ -1,0 +1,131 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    background-color: rgb(253, 255, 249);
+}
+.flexible-container{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.header{
+    width: 50%;
+    padding: 5%;
+    padding-bottom: 1%;
+}
+.header h1{
+    font-size: 35px;
+    line-height: 22px;
+}
+.color{
+    color: skyblue;
+}
+.header p{
+    line-height: 20px;
+    color: rgb(131, 126, 126);
+    font-size: 13px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.header img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(199, 199, 250), rgb(129, 245, 245));
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: white;
+}
+
+.illustrator{
+    width: 100%;
+}
+.illustrator img{
+    width: 50%;
+}
+.illustrator h1{
+    text-align: center;
+    font-size: 35px;
+}
+.exp-item{
+    width: 40%;
+    margin: 1%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+.exp-item p{
+    font-size: 14px;
+    line-height: 20px;
+}
+#mission {
+    background-color: rgb(225, 243, 245);
+}
+#vission{
+    background-color:rgb(253, 230, 253) ;
+}
+#success{
+    background-color: rgb(250, 244, 233);
+}
+.picture{
+    width: 30%;
+    padding: 2%;
+    padding-right: 10px;
+}
+.d-w-l{
+    width: 50%;
+    padding: 5%;
+    margin-top: 30px;
+}
+.picture img{
+    width: 100%;
+}
+.d-w-l h2{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 20px;
+}
+.d-w-l p{
+    line-height: 20px;
+    color: rgb(131, 126, 126);
+    font-size: 13px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.b-c-a h1{
+    text-align: center;
+    font-size: 35px;
+}
+.pic {
+    width: 50%;
+    padding: 1%;
+    padding-bottom: 1%;
+    margin-left: 20%;
+}
+.stay-safe{
+    width: 50%;
+    padding: 5%;
+    padding-bottom: 1%;
+    margin-right: 15%;
+}
+.pic img{
+    width: 90%;
+}
+.stay-safe h2{
+    font-size: 35px;
+    line-height: 22px;
+}
+.stay-safe p{
+    line-height: 20px;
+    color: rgb(63, 60, 60);
+    font-size: 13px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.end{
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
