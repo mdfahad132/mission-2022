@@ -124,8 +124,18 @@ body{
     margin-bottom: 30px;
 }
 .end{
-    align-items: center;
+    text-align: center;
     background-color: black;
     color: white;
+    padding: 15px 10px;
 }
-
+.red{
+    color: red;
+}
+.end p{
+    color: silver;
+    font-size: 13px;
+}
+.end h3{
+    font-size: 25px;
+}
