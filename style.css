@@ -162,3 +162,16 @@ body{
 .footer h3{
     font-size: 25px;
 }
+
+.beganer-web{
+    width: 50%;
+    margin-bottom: 70px;
+    margin-left: 99px;
+}
+.beganer-web img{
+    width: 80%;
+    margin-top: 60px;
+}
+.beganer-web h3{
+    font-size: 25px;
+}
